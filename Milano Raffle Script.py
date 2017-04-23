@@ -8,7 +8,7 @@ def entries(amount):
     for i in range(0, amount):
         session = requests.session()
         url = "https://www.excelsiormilano.com/module/antcontactcustom/sendmail"
-        email = 'slayadidas+{}@gmail.com'.format(getrandbits(40)) ## CHANGE ENTER_EMAIL_HERE to your EMAIL PRE FIX!!!
+        email = 'ENTER_EMAIL_HERE+{}@gmail.com'.format(getrandbits(40)) ## CHANGE ENTER_EMAIL_HERE to your EMAIL PRE FIX!!!
         data = {
                     "first_name": "ENTER_NAME_HERE", ## CHANGE ENTER_NAME_HERE to your first name
                     "last_name": "ENTER_NAME_HERE", ## CHANGE ENTER_NAME_HERE to your last name
